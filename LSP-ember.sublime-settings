@@ -1,0 +1,9 @@
+{
+	"command": ["${node_bin}", "${server_path}", "--stdio"],
+	"file_watcher": {
+		"patterns": ["{**/*.js,**/*.ts,**/*.hbs}"],
+		"events": ["create", "change", "delete"]
+	},
+	"initializationOptions": {},
+	"selector": "text.html.handlebars, source.js, source.ts",
+}

@@ -1,0 +1,7 @@
+{
+	"name": "sublime-ember-ls",
+	"version": "1.0.0",
+	"dependencies": {
+		"@lifeart/ember-language-server": "^2.28.0"
+	}
+}
